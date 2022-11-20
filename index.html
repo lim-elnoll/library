@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js" defer></script>
+  <link rel="stylesheet" href="main.css">
+  <title>My Library</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">Elnoll</div>
+      <div class="links">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="https://www.linkedin.com/in/lim-elnoll/">LinkedIn</a></li>
+          <li><a href="https://github.com/lim-elnoll">GitHub</a></li>
+          <li><a href="https://twitter.com/lim_elnoll">Twitter</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <button id="add">Add a book...</button>
+      <div class="add-book">
+        <h2 class="more-about-book"></h2>
+      </div>
+      <form>
+        <label>
+          <span>Title:</span>
+          <input type="text" name="book-title" value="" required>
+        </label>
+        <label>
+          <span>Author:</span>
+          <input type="text" name="book-author" value="" required>
+        </label>
+        <label>
+          <span>Pages:</span>
+          <input type="number" name="book-pages" value="" required>
+        </label>
+        <label>
+          <span>Is read: </span>
+          <input type="checkbox" name="isRead" value="" required>
+        </label>
+        <button class="btn">Add</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
